@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title></title>    
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="lib/onsenui/css/onsenui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+    <script src="lib/onsenui/js/onsenui.js"></script>
+    <script src="lib/js/main.js"></script>
+</head>
+<body>
+  <ons-navigator id="mainNavigator" page="splitter.html">
+  </ons-navigator>
+  <ons-template id="splitter.html">
+    <ons-splitter id="mainSplitter">
+      <ons-splitter-side page="content/menu.html" side="left" swipeable collapse="portrait" width="200px">
+      </ons-splitter-side>
+      <ons-splitter-content page="home.html">
+      </ons-splitter-content>
+    </ons-splitter>
+  </ons-template>
+
+ 
+</body>
+</html>

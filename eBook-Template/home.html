@@ -1,0 +1,16 @@
+<ons-page id="pgHome">   
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button onclick="document.getElementById('mainSplitter').left.toggle();">
+                <ons-if platform="android">
+                    <ons-icon icon="md-menu"></ons-icon>
+                </ons-if>
+                <ons-if platform="ios other">
+                    <ons-icon icon="ion-navicon" style="font-size: 32px; width: 1em;"></ons-icon>
+                </ons-if>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">eBook Title</div>
+    </ons-toolbar>
+    <img src="content/cover.png" width="100%" height="100%" alt="" />  
+</ons-page>
