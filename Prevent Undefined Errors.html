@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700,700italic,500italic' rel='stylesheet' type='text/css'>
+    <title>Onsen UI Forum Help by Munsterlander</title>
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/OnsenUI/OnsenUI-dist/2.0.0-rc.17/css/onsenui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/OnsenUI/OnsenUI-dist/2.0.0-rc.17/css/onsen-css-components.css">
+    <script src="https://cdn.rawgit.com/OnsenUI/OnsenUI-dist/2.0.0-rc.17/js/onsenui.js"></script>
+    <script src="components/loader.js"></script> 
+    <script>
+        ons.ready(function(){
+            document.addEventListener("show", function(event){
+                if(event.target.id=='myPage') { 
+                    document.getElementById('myDiv').innerHTML = 'Now that the element has been attached to the DOM, we can push data to display';
+                }
+            });
+        });
+
+    </script>
+  </head>
+  <body>
+ <ons-page id="myPage">
+ <div>These errors occur because the object / item you are trying to access has not been loaded to the DOM; thus you get: Cannot read property 'XXXX' of undefined, etc.</div>
+ <div id="myDiv"></div>
+ </ons-page>
+</body>
+</html>
