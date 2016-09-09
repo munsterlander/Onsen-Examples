@@ -2,6 +2,8 @@
 
 Note:  This was thrown together as an example.  There are some poor coding practices that I am not proud of.  Maybe someday I will come back and edit out the rediculous Boolean(variable) because I set the variable to an integer.  Originally, I was planning on doing something different, but alas, it ended up into that monstrosity.  Enjoy!
 
+## Let's Get Started
+
 To get this template going, you only need to edit the files in the content folder.
 
 To add your cover image, just replace the cover.png file with your own.
