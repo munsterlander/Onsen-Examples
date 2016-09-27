@@ -7,7 +7,7 @@ The code is not commented and was heavily modified from the source :  http://www
 
 The function requires 4 options and is called as such:
 
-`inspect(obj, maxLevels, level, val)`
+`document.getElementById('log').innerHTML = inspect(obj, maxLevels, level, val)` just have an empty `div` with an id of log or whatever for the function to pass the data.
 
 `obj` is the object you are passing in to be inspected
 
