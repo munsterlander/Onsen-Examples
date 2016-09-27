@@ -10,6 +10,9 @@ The function requires 4 options and is called as such:
 `inspect(obj, maxLevels, level, val)`
 
 `obj` is the object you are passing in to be inspected
+
 `maxlevels` is how deep you want it to go.  Just note that going beyond 4 puts some serious drain on the device.
+
 `level` is the starting point of inspection and should pretty much always be 0 unless you want to start deeper in your object.
+
 `val` is if you want to show the value held in the object.  This should pretty much always be false as setting it to true can also drain your device.
