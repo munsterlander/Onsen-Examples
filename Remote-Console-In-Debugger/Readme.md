@@ -1,7 +1,7 @@
 ## This is a code snippet that requires jQuery (I know, I hate using it too!)
 
 For when you need to inspect event objects returned in a mobile device, but do not have the ability to utilize Monaca's
-USB debugging since it requires a constant WiFi connection.
+USB debugging since it requires a constant WiFi connection and I kept getting an error even though the device was paired to the pc.
 
 The code is not commented and was heavily modified from the source :  http://www.codeproject.com/Articles/24549/How-to-Inspect-a-JavaScript-Object
 
