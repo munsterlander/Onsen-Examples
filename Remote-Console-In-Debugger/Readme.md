@@ -16,3 +16,5 @@ The function requires 4 options and is called as such:
 `level` is the starting point of inspection and should pretty much always be 0 unless you want to start deeper in your object.
 
 `val` is if you want to show the value held in the object.  This should pretty much always be false as setting it to true can also drain your device.
+
+Be forewarned though, this code can generate some very unique warnings in the console because it is resource intensive.  Sometimes, once triggered, it can take several seconds before returning results.  Patience is a must.
