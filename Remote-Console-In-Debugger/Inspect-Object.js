@@ -21,7 +21,7 @@
                 str += inspect(obj[property], maxLevels, level+1, val);
               } else {
                 str += '<li>(' + type + ') ' + property + 
-                     ( (obj[property]==null)?(': <b>null</b>'):((val)?(' - '+obj[property]):(''))) + '</li>';
+                     ( (obj[property]==null)?(': <b>null</b>'):((val)?(' - '+JSON.stringify(obj[property])):(''))) + '</li>';
               }
           }
           catch(err)
