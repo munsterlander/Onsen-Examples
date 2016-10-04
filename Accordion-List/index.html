@@ -11,16 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script>  
         window.fn = {};
-        
-        window.fn.toggleMenu = function() {
-          document.getElementById('menu').toggle();
-        };
-        
-        
-        window.fn.load = function(page) {
-          document.getElementById('content').load(page).then(fn.toggleMenu());
-        };
-        
         window.fn.toggle = function(el) {
             el.classList.toggle("active");
             el.nextElementSibling.classList.toggle("show");
@@ -59,11 +49,14 @@
     </style>
 </head>
 <body>
-<ons-splitter>
-  <ons-splitter-side id="menu" side="left" width="220px" collapse>
     <ons-page>
+        <ons-toolbar>
+          <div class="center">
+            Accordion + List and Onsen
+          </div>
+        </ons-toolbar>
       <ons-list>
-        <ons-list-item onclick="fn.load('home.html')" tappable>
+        <ons-list-item>
           Home
         </ons-list-item>
         <ons-list-item tappable class="accordion" onclick="fn.toggle(this)">Items</ons-list-item>
@@ -75,23 +68,5 @@
         </div>
       </ons-list>
     </ons-page>
-  </ons-splitter-side>
-  <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
-</ons-splitter>
-
-<ons-template id="home.html">
-    <ons-page id="home">
-      <ons-toolbar>
-        <div class="left">
-            <ons-toolbar-button onclick="fn.toggleMenu()">
-              <ons-icon icon="md-menu"></ons-icon>
-            </ons-toolbar-button>
-        </div>
-        <div class="center">Accordion + List</div>
-      </ons-toolbar>
-
-    </ons-page>
-</ons-template>
-
 </body>
 </html>
