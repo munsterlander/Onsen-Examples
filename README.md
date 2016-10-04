@@ -1,5 +1,5 @@
 # Onsen-Examples
-I am going to collect all the examples that I have posted in the Onsen Community forums as a reference point for people new to Onsen.
+I am going to collect all the examples that I have posted in the Onsen Community forums as a reference point for people new to Onsen.  A note though, I am not an Onsen employee nor am I an expert programmer.  Although, I do have considerable experience in programming, my code is not always without fault.  Feel free to make a comment here or on the community forums.  Thank you for stopping by!
 
 #References
 https://community.onsen.io/ - Onsen Community Forums
