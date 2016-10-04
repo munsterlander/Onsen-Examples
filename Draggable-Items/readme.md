@@ -16,6 +16,8 @@ In order to make this work and respond how the user would anticipate it working,
 
 `dragend` is not necessarily needed; however, it is used if you need to record where the event was dropped.  As written in the example, we simply update the variables for use at a later point, but this could be combined with the dynamic items section to do drop or detect where the object is, but this is outside the scope of this tutorial for now.
 
+Finally, a `show` event listener is added in order to dispose of the splitter event handler as it has a unique way of showing back up and also to call the other event listeners as they have a unique way of disappearing when the splitter is toggled! 
+
 ## Making this work with the Splitter component
 
 Because the `ons-splitter` component also uses drag detection, a conflict is created between the two implementations.  In order to make this work effectively, I chose to disable the swipe capability of the splitter, but maintained an icon for toggling the menu.  The critical piece is `dispose()` which removes the event listeners for the menu itself.  This is done via:
