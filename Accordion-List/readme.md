@@ -15,6 +15,7 @@ The HTML:
            <ons-list-item tappable>Item 3</ons-list-item>
            <ons-list-item tappable>Item 4</ons-list-item>         
        </div>
+     </ons-list-item>
 
 The JS:
 
