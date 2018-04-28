@@ -11,3 +11,5 @@ https://gitter.im/OnsenUI/OnsenUI - Gitter Chat Room for Onsen related issues
 https://github.com/OnsenUI/OnsenUI - That's right!  Onsen is open source.
 
 http://tutorial.onsen.io/ - Tutorials for Onsen with Angular 1, Angular 2, React, Vue.JS and Vanilla JS - the best JS!
+
+https://discordapp.com/invite/JWhBbnE - Discord! 
